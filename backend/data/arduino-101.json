@@ -1,0 +1,109 @@
+{
+  "courseId": "arduino-101",
+  "title": "Min Første Arduino",
+  "shortTitle": "Arduino 101",
+  "description": "Dette kurset lærer deg om Arduino på en morsom og enkel måte. Du vil lære hva en Arduino er, hvordan en LED kan blinke, og lage enkle prosjekter!",
+  "targetAgeRange": "5",
+  "difficultyLevel": "1",
+  "prerequisites": [],
+  "estimatedCompletionTime": "3 lekeøkter",
+  "coverImage": "min-forste-arduino.jpg",
+  "mascot": "Arduino-bot",
+  "badge": "arduino-beginner",
+  "voiceCommandKeywords": ["arduino", "lys", "blink", "prosjekt"],
+  "parentNotes": "Hjelp barnet med å forstå grunnleggende elektronikk på en leken måte.",
+  "creationDate": "2025-02-26",
+  "lastUpdated": "2025-02-26",
+  "version": "1.1",
+  "active": true,
+  "ttsScriptOverrides": {},
+  "hardwareRequirements": ["Arduino Uno", "LED", "220 ohm resistor", "koblingsbrett", "jumper wires"],
+  "modules": [
+    {
+      "moduleId": "module-1",
+      "title": "Bli kjent med Arduino",
+      "position": 1,
+      "lessons": [
+        {
+          "lessonId": "lesson-1-1",
+          "title": "Hva er en Arduino?",
+          "position": 1,
+          "contentBlocks": [
+            {
+              "type": "introduction",
+              "content": {
+                "text": "En Arduino er en liten datamaskin som kan få ting til å skje! Den er som en magisk boks som kan styre lys, motorer og mye mer."
+              }
+            },
+            {
+              "type": "demonstration",
+              "content": {
+                "videoFile": "arduino-demo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "lessonId": "lesson-1-2",
+          "title": "Lys og Blink",
+          "position": 2,
+          "contentBlocks": [
+            {
+              "type": "introduction",
+              "content": {
+                "text": "Vi skal lære hvordan en LED kan blinke med en Arduino. Det er som når stjernene blinker på himmelen!"
+              }
+            },
+            {
+              "type": "interaction",
+              "content": {
+                "type": "voice-command",
+                "prompt": "Kan du trykke på knappen for å se lys blinke?",
+                "expectedResponses": ["ja", "klapp"]
+              }
+            },
+            {
+              "type": "demonstration",
+              "content": {
+                "videoFile": "blink-demo.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "moduleId": "module-2",
+      "title": "Lag ditt eget prosjekt",
+      "position": 2,
+      "lessons": [
+        {
+          "lessonId": "lesson-2-1",
+          "title": "Sett opp Arduinoen",
+          "position": 1,
+          "contentBlocks": [
+            {
+              "type": "introduction",
+              "content": {
+                "text": "La oss sette opp Arduinoen sammen. Først kobler du Arduinoen til datamaskinen med en USB-kabel."
+              }
+            }
+          ]
+        },
+        {
+          "lessonId": "lesson-2-2",
+          "title": "Prøv en enkel kode",
+          "position": 2,
+          "contentBlocks": [
+            {
+              "type": "introduction",
+              "content": {
+                "text": "Nå skal vi laste opp en kode som får lys til å blinke. Følg instruksjonene på skjermen og ha det gøy!"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

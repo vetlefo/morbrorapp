@@ -1,0 +1,49 @@
+{
+  "courseId": "arduino-102",
+  "title": "Min Andre Arduino",
+  "shortTitle": "Arduino 102",
+  "description": "Dette kurset bygger videre på Arduino 101 og lærer deg en rask oppfølgingsoppgave med LED-blinking. Oppgaven tar omtrent 5 minutter å fullføre.",
+  "targetAgeRange": "5",
+  "difficultyLevel": "1",
+  "prerequisites": ["arduino-101"],
+  "estimatedCompletionTime": "5 minutter",
+  "coverImage": "arduino-102.jpg",
+  "mascot": "Arduino-bot",
+  "badge": "arduino-intermediate",
+  "voiceCommandKeywords": ["arduino", "oppfølging", "rask", "5 minutter"],
+  "parentNotes": "Dette kurset bygger videre på det du lærte i Arduino 101 og gir en rask repetisjon.",
+  "creationDate": "2025-02-26",
+  "lastUpdated": "2025-02-26",
+  "version": "1.0",
+  "active": true,
+  "ttsScriptOverrides": {},
+  "hardwareRequirements": ["Arduino Uno", "LED", "220 ohm resistor", "koblingsbrett", "jumper wires"],
+  "modules": [
+    {
+      "moduleId": "module-1",
+      "title": "Oppfølging: Enkel LED-blink",
+      "position": 1,
+      "lessons": [
+        {
+          "lessonId": "lesson-1-1",
+          "title": "Rask blink-oppgave",
+          "position": 1,
+          "contentBlocks": [
+            {
+              "type": "introduction",
+              "content": {
+                "text": "Denne oppgaven repeterer LED-blinking med en rask utfordring. Følg instruksjonene for å fullføre oppgaven på ca 5 minutter."
+              }
+            },
+            {
+              "type": "demonstration",
+              "content": {
+                "videoFile": "arduino-102-demo.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
